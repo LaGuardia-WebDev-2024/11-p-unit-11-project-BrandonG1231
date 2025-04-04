@@ -1,14 +1,14 @@
 <!-- Unit 11 Project
 Requirements
-[  ] Three New Arrays
-[  ] One New Loop
-[  ] Custom Function
-[  ] Three new HTML elements/CSS Declarations
+[ ✅ ] Three New Arrays
+[ ✅ ] One New Loop
+[ ✅ ] Custom Function
+[ ✅ ] Three new HTML elements/CSS Declarations
 
 Select ONE Additional 
 [ no ] Feature 1 - Array of Colors
 [ no ] Feature 2 - Add to an Array using .push()
-[ no ] Feature 3 - Image on the Canvas
+[ ✅ ] Feature 3 - Image on the Canvas
 [ no ] Feature 4 - Include prompt() to Get Info From User
 [ no ] Feature 5 - KeyPressed Feature
 -->
@@ -21,13 +21,30 @@ Select ONE Additional
     <title>Unit 11 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+      h1 {
+        font-family: "Dancing Script", cursive;
+      }
+      body {
+        background-image: linear-gradient(
+        to bottom right,
+        #93aff8,
+        #b0d0ff,
+        #b0dcff,
+        #44edff);
+      }
+    </style>
   </head>
 
   <body>
     <div class="container">
       <div>
         <h2 id="end">🍂🌼🌞⛄ | My Favorite Season</h2>
+        <h1>Winter</h1>
+        <hr size = "20" color = "#ff4444" />
         <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
       </div>
     </div>
