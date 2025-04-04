@@ -33,11 +33,12 @@ setup = function() {
 
    drawSnowman(420, 300);
    drawSnowman(100, 300);
-
-   draw = function() { // Christmas Tree
-     image(XmasTreeImg, 164, 40, 200, 300);
-   }
 };
+
+draw = function() { // Christmas Tree
+     image(XmasTreeImg, 164, 40, 200, 300);
+}
+
   var drawSnowman = function(SnowmanX, SnowmanY, SnowmanColor){
   fill(SnowmanColor);
     ellipse(SnowmanX, SnowmanY, 100, 100); // Bottom Body
